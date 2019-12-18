@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "open test environment from tekshool website",
+        "description": "",
+        "id": "open-tek-school-of-america;open-test-environment-from-tekshool-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 283884690,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be open tek school of america web site",
+            "match": {
+              "location": "tekshoolStepDefinitions.user_should_be_open_tek_school_of_america_web_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2750678,
+              "error_message": "java.lang.NullPointerException\r\n\tat PageObjects.tekSchoolPageObjects.clickOnTestEnvironment(tekSchoolPageObjects.java:16)\r\n\tat stepDefinitions.tekshoolStepDefinitions.user_click_test_environment(tekshoolStepDefinitions.java:23)\r\n\tat ✽.When User click test environment(tekshoolpage.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "User click test environment",
+            "match": {
+              "location": "tekshoolStepDefinitions.user_click_test_environment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User should be in the test environment page",
+            "match": {
+              "location": "tekshoolStepDefinitions.user_should_be_in_the_test_environment_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tekschool_001"
+          }
+        ]
+      }
+    ],
+    "name": "open tek school of america",
+    "description": "",
+    "id": "open-tek-school-of-america",
+    "keyword": "Feature",
+    "uri": "tekshoolpage.feature"
+  }
+]
